@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Daniel Romero <infoslack@gmail.com>
+MAINTAINER Paulo Vitor <paulovitor88@gmail.com>
 
 ENV  DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq && apt-get install -y mysql-server-5.5
